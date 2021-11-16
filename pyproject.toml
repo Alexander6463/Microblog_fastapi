@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapichannel"
+version = "0.1.0"
+description = ""
+authors = ["aleksandr <aleksandr_drobnov@epam.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.70.0"
+alembic = "^1.7.5"
+SQLAlchemy = "^1.4.27"
+uvicorn = "^0.15.0"
+psycopg2 = "^2.9.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
